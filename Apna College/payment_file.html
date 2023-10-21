@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Form</title>
+</head>
+<body>
+     <form action="">
+
+        <h2>Payment Form </h2>
+        <h3>Contact Information</h3>
+         <p>Name: <input type="text" name="name" id="name" required > </p>
+         <legend>Gender</legend>
+          <fieldset>
+            <p>Male<input type="radio" name="name" id="male">Female <input type="radio" name="name" id="female"></p>
+          </fieldset>
+          <P>
+            Address <textarea name="address" id="address" cols="30" rows="10"></textarea>
+          </P>
+          <p>
+            Email <input type="email" name="email" id="email">
+          </p>
+          <h2>Payment Information</h2>
+          <p>Card Type:
+            <select name="cardtype" id="cardtype">
+                <option value="">---select card type--</option>
+                <option value="HBL">HBL</option>
+                <option value="UBL">UBL</option>
+                <option value="Allied Bank">Allied Bank</option>
+                <option value="Meezan">Meezan</option>
+                <option value="HBBL">HBBL</option>
+            </select>
+          </p>
+          <p>
+            Account Number: <input type="number" name="number" id="number">
+          </p>
+          <p>
+            Amount: <input type="number" name="number" id="number" >
+          </p>
+          <P>Password: <input type="password" name="password" id="password"> </P>
+          <input type="submit" value="Pay Now">
+        
+
+     </form>
+</body>
+</html>
