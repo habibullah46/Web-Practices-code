@@ -1,0 +1,10 @@
+CREATE TABLE tbl_reg (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(50) NOT NULL,
+    fname VARCHAR(50) NOT NULL,
+    phone VARCHAR(50) NOT NULL,
+    email VARCHAR(100) NOT NULL,
+    address VARCHAR(100) NOT NULL,
+    institute VARCHAR(100) NOT NULL,
+    class VARCHAR(15) NOT NULL
+);
