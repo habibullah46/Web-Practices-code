@@ -1,0 +1,54 @@
+.color{
+    background-color: rgb(215, 29, 29);
+    height: 90px;
+    width: 100%;
+}
+.logo{
+    height: 10px;
+}
+.heading{
+    margin-left: 750px;
+    
+   
+}
+.nav{
+    background-color: cadetblue;
+    height: 50px;
+    text-align: right;
+}
+.card{
+    margin-top: 110px;
+    margin-left: 100px;
+    width: 400px;
+    height: 50px;
+    float: left;
+    background-color: cadetblue;
+
+    border-radius: 99px 0px 127px 0px;
+-webkit-border-radius: 99px 0px 127px 0px;
+-moz-border-radius: 99px 0px 127px 0px;
+}
+.MianPic{
+    margin-top: 20px;
+    margin-left: 90px;
+    width: 600px;
+    height: 950px;
+    float: left;
+
+    border-radius: 99px 0px 127px 0px;
+-webkit-border-radius: 99px 0px 127px 0px;
+-moz-border-radius: 99px 0px 127px 0px;
+  
+}
+.Reg_form{
+    margin-top: 70px;
+    margin-left: 70px;
+    width: 700px;
+    height: 650px;
+    float: left;
+    background-color: gray;
+}
+span{
+    color: rgb(239, 243, 233);
+    
+}
