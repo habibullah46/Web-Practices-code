@@ -1,0 +1,29 @@
+.nav{
+  
+   float: left;
+   margin-top: 40px;
+   
+}
+nav  {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 40px;
+    margin-top: 92px;
+    margin-left: 750px;
+  }
+.pic
+{
+  margin-left: 1200px;
+  margin-top: 70px;
+
+}
+.maintext{
+    font-size: 50px;
+    margin-left: 40px;
+    margin-top: 300px;
+    float: left;
+}
+.CContainer{
+   background-color: aliceblue;
+    background-color: color-mix(in xyz, color percentage, color percentage);
+}
